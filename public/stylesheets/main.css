@@ -2,6 +2,7 @@ body{
 	background:#bfbfbf;
 	font-family: arial;
 	margin: 0;
+	overflow-x: hidden;
 }
 
 header {
@@ -10,10 +11,9 @@ header {
 	font-weight: bold;
 	margin:0;
 	padding: 10px 0px 0px 0px;
-	
 }
 
-.tablink {
+.tablink button{
   background-color: #555;
   color: white;
   float: left;
@@ -25,15 +25,54 @@ header {
   width: 33.33%;
 }
 
-/* Change background color of buttons on hover */
-.tablink:hover {
+/* Change background color of the tab on hover */
+.tablink button:hover {
   background-color: #777;
+
 }
 
 /* Set default styles for tab content */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 50px;
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
   text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;				
+}
+
+.tablink:hover .tooltiptext {
+  visibility: visible;
+}
+
+.address {
+	text-align: right;
+	padding: 0px 20px 0px 0px;
+}
+
+/* Refers to the position of the image */
+#thumbs {
+    text-align: justify;
+}
+#thumbs > div {
+    display: inline-block;
+}
+#thumbs:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
 }

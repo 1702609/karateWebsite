@@ -8,30 +8,40 @@
 	<body>
 		<header>
 			<center>Shotokan Karate</center><br>	
-			<div id="Kata" class="tabcontent">
-				<h1>Kata</h1>
-				<p>Learn what kata is</p>
+			<address class="address">
+				Written by Tasin Islam.<br> 
+				Visit us at:<br>
+				Example.com<br>
+				Box 564, Gants Hill<br>
+				UK
+			</address>
+			
+			<div class="tablink">
+				<button onclick="loadPage('Kata')">Kata</button>
+				<span class="tooltiptext">Learn about kata!</span>
+			</div>	
+			
+			<div class="tablink">
+				<button onclick="loadPage('Kumite')">Kumite</button>
+				<span class="tooltiptext">Learn about kumite!</span>
 			</div>
-
-			<div id="Kumite" class="tabcontent">
-				<h1>Kumite</h1>
-				<p>Learn what kumite is</p>
+			
+			<div class="tablink">
+				<button onclick="loadPage('Kihon')">Kihon</button>
+				<span class="tooltiptext">Learn about kihon!</span>
 			</div>
-
-			<div id="Kihon" class="tabcontent">
-				<h1>Kihon</h1>
-				<p>Learn what kihon is</p>
-			</div>
-			<button class="tablink" onclick="openTab()">Kata</button>
-			<button class="tablink" onclick="tabfunction('Kumite', this, 'green')">Kumite</button>
-			<button class="tablink" onclick="tabfunction('Kihon', this, 'blue')">Kihon</button>
+		
 		</header>
-	
+		
+		<div id="thumbs">
+			<img src = "images/punch.png" width="200" height="200">
+			<img src = "images/stance.png" width="200" height="200">
+			<img src = "images/kick.png" width="200" height="200">
+			<span class="strech"></span>
+		</div><br>
+		
 		<em>Shotokan karate is a style of karate, developed from various martial 
 		arts by Gichin Funakoshi.</em><br>
-			
-		<img src = "images/punch.jpg" width="200" height="200">
-	
 	
 		<h1>
 			Big paragraph below
