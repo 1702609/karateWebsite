@@ -33,7 +33,7 @@ header {
 
 /* Set default styles for tab content */
 
-.tooltiptext {
+.tablink .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -42,11 +42,13 @@ header {
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;
-  z-index: 1;				
+  top: 36%;	
+  left: 10%;
 }
 
 .tablink:hover .tooltiptext {
   visibility: visible;
+
 }
 
 .address {
