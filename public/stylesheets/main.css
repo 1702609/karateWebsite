@@ -13,6 +13,7 @@ header {
 	padding: 10px 0px 0px 0px;
 }
 
+
 .tablink button{
   background-color: #555;
   color: white;
@@ -33,23 +34,6 @@ header {
 
 /* Set default styles for tab content */
 
-.tablink .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  top: 36%;	
-  left: 10%;
-}
-
-.tablink:hover .tooltiptext {
-  visibility: visible;
-
-}
 
 .address {
 	text-align: right;
