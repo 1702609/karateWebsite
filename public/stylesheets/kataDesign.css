@@ -39,32 +39,3 @@ header {
 	text-align: right;
 	padding: 0px 20px 0px 0px;
 }
-
-/* Refers to the position of the image */
-#thumbs {
-    text-align: justify;
-	margin-right: 10px;
-}
-#thumbs > div {
-    display: inline-block;
-}
-#thumbs:after {
-    content: "";
-    width: 100%;
-    display: inline-block;
-}
-
-#info {
-	padding-left: 2rem;
-	padding-right: 2rem;
-}
-
-footer{
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: red;
-	color: white;
-	text-align: center;
-}
