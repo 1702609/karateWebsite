@@ -1,41 +1,10 @@
-body{
-	background:#bfbfbf;
-	font-family: arial;
-	margin: 0;
-	overflow-x: hidden;
+.info {
+	padding-left: 4rem;
+	padding-top: 2rem;
+	padding-right: 4rem;
 }
 
-header {
-	background: #b00c00;
-	color: white;
-	font-weight: bold;
-	margin:0;
-	padding: 10px 0px 0px 0px;
-}
-
-
-.tablink button{
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 33.33%;
-}
-
-/* Change background color of the tab on hover */
-.tablink button:hover {
-  background-color: #777;
-
-}
-
-/* Set default styles for tab content */
-
-
-.address {
-	text-align: right;
-	padding: 0px 20px 0px 0px;
+#kihonImage{
+	max-width:50%;
+	max-height:50%;
 }
