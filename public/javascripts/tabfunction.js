@@ -1,5 +1,8 @@
 function loadPage(pageRequest) {
-	if (pageRequest == "Kata"){
+	if (pageRequest == "Home"){
+		window.open("/","_self");
+	}
+	else if (pageRequest == "Kata"){
 		window.open("/kata","_self"); 
 	}
 	else if (pageRequest == "Kumite"){
