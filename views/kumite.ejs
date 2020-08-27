@@ -5,6 +5,12 @@
 		<link rel="stylesheet" type="text/css" href="stylesheets/header.css" /> 
 		<link rel="stylesheet" type="text/css" href="stylesheets/kumiteDesign.css" /> 
 		<script type="text/javascript" src="javascripts/tabfunction.js"></script>
+		<script>
+		function resizeIframe(obj) 
+			{
+			obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+			}
+		</script>
 	</head>
 	
 	<body>
@@ -31,7 +37,8 @@
 				What is Kumite?
 			</h1>
 			<p>
-				
+				<iframe src="text/kumite.html" frameborder=0 scrolling="no" onload="resizeIframe(this)" 
+				style="position: relative; height: 100%; width: 100%;"><iframe>
 			</p>
 		<div>
 	
